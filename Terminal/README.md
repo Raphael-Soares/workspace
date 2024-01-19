@@ -1,6 +1,8 @@
 # Customizing Your Terminal Setup
 
-Enhance your terminal experience with a curated selection of tools and configurations. Dive into a seamless setup using the following components:
+Enhance your terminal experience with a curated selection of tools and configurations. It will look something like this:
+
+![Terminal Screenshot]()
 
 ## Components Used:
 
