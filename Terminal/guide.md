@@ -39,10 +39,10 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 To use the powerlevel10k theme you need to install a nerd font. The recommended is MesloLGS NF
 
-- [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
-- [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
-- [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
-- [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
+- [MesloLGS NF Regular.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Regular.ttf)
+- [MesloLGS NF Bold.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Italic.ttf)
+- [MesloLGS NF Italic.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Bold.ttf)
+- [MesloLGS NF Bold Italic.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Bold%20Italic.ttf)
 
 dont forget to set the font in your terminal
 
@@ -70,4 +70,11 @@ The file .zshrc is in your home directory, you can edit it with your favorite te
 
 you can use my config or setup your own
 
-[Download my .zshrc here](https://github.com/Raphael-Soares/workspace/raw/master/)
+[Download my .zshrc here](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/zshrc-exemple)
+
+If you are lazy like me you can just copy and paste this command in your terminal
+
+```bash
+wget https://github.com/Raphael-Soares/workspace/raw/main/Terminal/zshrc-exemple
+mv zshrc-exemple ~/.zshrc
+```
