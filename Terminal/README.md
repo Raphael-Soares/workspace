@@ -2,7 +2,7 @@
 
 Enhance your terminal experience with a curated selection of tools and configurations. It will look something like this:
 
-![Terminal Screenshot]()
+![Terminal Screenshot](https://github.com/Raphael-Soares/workspace/blob/main/Terminal/%5B1%5D%20Print.png)
 
 ## Components Used:
 
