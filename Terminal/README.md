@@ -1,17 +1,14 @@
 # Customizing Your Terminal Setup
 
-Elevate your terminal experience by incorporating a curated selection of tools and configurations, resulting in a visually appealing setup as showcased below:
+Enhance your terminal experience with a carefully curated selection of tools and configurations, resulting in a visually appealing setup as showcased below:
 
 ![Terminal Screenshot](https://raw.githubusercontent.com/Raphael-Soares/workspace/main/Terminal/%5B1%5D%20Print.png)
 
 ## Components Utilized:
 
 - **zsh**: A robust shell enriched with advanced features.
-
 - **oh-my-zsh**: A delightful community-driven framework for seamless management of zsh configurations.
-
 - **powerlevel10k**: A highly customizable zsh theme offering a visually stunning terminal appearance.
-
 - **NerdFonts**: Specialty fonts such as MesloLGS NF, complementing powerlevel10k.
 
 ## Installation Guide:
@@ -111,5 +108,15 @@ sudo apt install eza nala -y   # Ubuntu/Debian
 or
 
 ```bash
-sudo dnf install eza nala -y   # Fedora
+sudo dnf install eza -y   # Fedora
 ```
+
+## Change the terminal theme with GOGH
+
+Choose a terminal theme that matches your desktop theme. I am currently using Gruvbox, which is 87, 88, or 89 in the list.
+
+```bash
+bash -c "$(wget -qO- https://git.io/vQgMr)"
+```
+
+Feel free to explore and customize your setup further to suit your preferences!
