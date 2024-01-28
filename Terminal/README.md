@@ -2,7 +2,7 @@
 
 Enhance your terminal experience with a carefully curated selection of tools and configurations, resulting in a visually appealing setup as showcased below:
 
-![Terminal Screenshot](https://raw.githubusercontent.com/Raphael-Soares/workspace/main/Terminal/%5B1%5D%20Print.png)
+![Terminal Screenshot](https://raw.githubusercontent.com/Raphael-Soares/workspace/main/Terminal/terminal-image.jpg)
 
 ## Components Utilized:
 
