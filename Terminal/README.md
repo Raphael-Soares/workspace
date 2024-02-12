@@ -2,7 +2,7 @@
 
 Enhance your terminal experience with a carefully curated selection of tools and configurations, resulting in a visually appealing setup as showcased below:
 
-![Terminal Screenshot](https://raw.githubusercontent.com/Raphael-Soares/workspace/main/Terminal/terminal-image.jpg)
+![Terminal Screenshot](https://raw.githubusercontent.com/Raphael-Soares/workspace/main/Terminal/assets/terminal-image.jpg)
 
 ## Components Utilized:
 
@@ -21,10 +21,12 @@ Initiate the installation of zsh on your system. Choose the appropriate command 
 sudo apt install zsh -y   # Ubuntu/Debian
 ```
 
-or
-
 ```bash
 sudo dnf install zsh -y   # Fedora
+```
+
+```bash
+sudo pacman -S zsh   # Arch
 ```
 
 ### Install oh-my-zsh
@@ -47,10 +49,10 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 For powerlevel10k, install a recommended NerdFont, such as MesloLGS NF.
 
-- [MesloLGS NF Regular.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Regular.ttf)
-- [MesloLGS NF Italic.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Italic.ttf)
-- [MesloLGS NF Bold.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Bold.ttf)
-- [MesloLGS NF Bold Italic.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Bold%20Italic.ttf)
+- [MesloLGS NF Regular.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/assets/Fonts/MesloLGS%20NF%20Regular.ttf)
+- [MesloLGS NF Italic.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/assets/Fonts/MesloLGS%20NF%20Italic.ttf)
+- [MesloLGS NF Bold.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/assets/Fonts/MesloLGS%20NF%20Bold.ttf)
+- [MesloLGS NF Bold Italic.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/assets/Fonts/MesloLGS%20NF%20Bold%20Italic.ttf)
 
 Remember to set the font in your terminal.
 
@@ -105,10 +107,12 @@ In my configuration file, `apt` and `ls` are aliased to `eza` and `nala` respect
 sudo apt install eza nala -y   # Ubuntu/Debian
 ```
 
-or
-
 ```bash
 sudo dnf install eza -y   # Fedora
+```
+
+```bash
+sudo pacman -S eza   # Arch
 ```
 
 ## Change the terminal theme with GOGH
