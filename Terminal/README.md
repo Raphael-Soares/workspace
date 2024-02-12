@@ -48,8 +48,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 For powerlevel10k, install a recommended NerdFont, such as MesloLGS NF.
 
 - [MesloLGS NF Regular.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Regular.ttf)
-- [MesloLGS NF Bold.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Italic.ttf)
-- [MesloLGS NF Italic.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Bold.ttf)
+- [MesloLGS NF Italic.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Italic.ttf)
+- [MesloLGS NF Bold.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Bold.ttf)
 - [MesloLGS NF Bold Italic.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/Fonts/MesloLGS%20NF%20Bold%20Italic.ttf)
 
 Remember to set the font in your terminal.
@@ -86,12 +86,12 @@ Select from a variety of plugins to enhance functionality.
 
 Edit the `.zshrc` file in your home directory with your preferred text editor. Use the provided example or create your own.
 
-[Download the example .zshrc file here](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/zshrc-example)
+[Download the example .zshrc file here](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/zshrc.example)
 
 For a quick setup, copy and paste this command in your terminal:
 
 ```bash
-wget https://github.com/Raphael-Soares/workspace/raw/main/Terminal/zshrc-example
+wget https://github.com/Raphael-Soares/workspace/raw/main/Terminal/zshrc.example
 mv zshrc-example ~/.zshrc
 ```
 

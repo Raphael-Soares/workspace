@@ -1,7 +1,24 @@
-# Raphael's Workspace Settings
+# Raphael's setup
 
-this is my personal settings i use on my workspace.
+    This is my setup for my personal computer. I use it for development, gaming, and general use.
 
-this is a work in progress, so i will be updating this repository as i go.
+  You can jump to the details of each section by clicking on the links below:
 
-[Terminal configuration](Terminal/README.md)
+- [Gnome](Gnome/README.md)
+- [Vscode](Vscode/README.md)
+- [Terminal](Terminal/README.md)
+- [Wallpapers](Wallpapers/README.md)
+
+### Gnome
+
+![Workspace](assets/area-trabalho.png)
+![Menu](assets/menu.png)
+![Apps](assets/nautilus-configuracoes.png)
+
+### Terminal
+
+![Terminal](assets/terminal.png)
+
+### Vscode
+
+![Apps](assets/vscode.png)                                                                                                                    

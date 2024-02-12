@@ -1,0 +1,170 @@
+{
+  // Aparência e Temas
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula Refined",
+
+  // Change font
+  "editor.fontFamily": "Geist Mono",
+  "scm.inputFontFamily": "Geist Mono",
+  "chat.editor.fontFamily": "Geist Mono",
+  "debug.console.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "notebook.output.fontFamily": "Geist Mono",
+  "markdown.preview.fontFamily": "Geist Mono",
+  "editor.inlayHints.fontFamily": "Geist Mono",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+
+  // Font size
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+
+  // ui
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "window.titleBarStyle": "custom",
+  "editor.scrollbar.horizontal": "auto",
+  "workbench.useExperimentalGridLayout": true,
+
+  // Arquivos e diretórios específicos a serem excluídos
+  "files.exclude": {
+    // Diretórios de controle de versão
+    "**/.git": true,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+
+    // Arquivos de sistema
+    "**/.DS_Store": false,
+    "**/Thumbs.db": false,
+
+    // Dependências e builds
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/dist": true,
+
+    // Configuração de ferramentas
+    "**/.vscode": true,
+    "**/.eslintrc.cjs": true,
+    "**/.eslintrc.json": true,
+    "**/.editorconfig": true,
+    "**/.lintstagedrc.mjs": false,
+    "**/.markdownlint.json": false,
+    "**/.markdownlintignore": true,
+    "**/.prettierignore": false,
+    "**/bun.lockb": false,
+    "**/cspell.json": false,
+
+    // Lock files e configurações de projeto
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/next-env.d.ts": true,
+    "**/next.config.mjs": true,
+    "**/next.config.js": false,
+    "**/postcss.config.cjs": false,
+    "**/postcss.config.js": true,
+    "**/prettier.config.js": false,
+    "**/tailwind.config.js": true,
+    "**/tailwind.config.ts": true,
+    "**/tsconfig.json": true,
+
+    // Outros arquivos
+    "**/.gitignore": true,
+    "**/README.md": false,
+    "**/drizzle.config.ts": false,
+    "**/migrate.ts": false,
+    "**/.env.example": false,
+    "**/.env.local": false,
+    "**/.env.development": false,
+    "**/.env.production": false,
+    "**/public": true
+  },
+
+  // Misc
+  "css.lint.unknownAtRules": "ignore",
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "breadcrumbs.filePath": "off",
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontLigatures": true,
+  "workbench.editor.labelFormat": "short",
+
+  // Editor
+
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.insertSpaces": true,
+
+  // Git e Controle de Versão
+  "git.enableSmartCommit": true,
+
+  // Arquivos e Pastas
+  "files.autoSave": "afterDelay",
+  "files.encoding": "utf8",
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+
+  // Prettier
+  "prettier.bracketSameLine": true,
+  "prettier.printWidth": 140,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.tabWidth": 2,
+  "prettier.jsxSingleQuote": true,
+
+  // Extensões Específicas
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "reactSnippets.settings.prettierEnabled": true,
+
+  // Associações de Arquivos
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.js": "javascript",
+    "*.tsx": "typescriptreact",
+    "*.ts": "typescript"
+  },
+
+  // Configurações por Linguagem
+  "[javascript, javascriptreact, typescript, typescriptreact]": {
+    "editor.formatOnPaste": true,
+    "breadcrumbs.showConstructors": true
+  },
+  "[vue, json]": {
+    "editor.formatOnPaste": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "extensions.autoUpdate": false,
+  "window.zoomLevel": -2,
+  "window.customTitleBarVisibility": "auto",
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false
+}

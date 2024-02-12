@@ -1,0 +1,22 @@
+{
+  "Jest test": {
+    "scope": "javascript,typescript,javascriptreact, typescriptreact ",
+    "prefix": "test",
+    "body": ["test('$1', () => {$2});"],
+    "description": "Jest test"
+  },
+
+  "Jest describe": {
+    "scope": "javascript,typescript,javascriptreact, typescriptreact ",
+    "prefix": "describe",
+    "body": ["describe('$1', () => {$2});"],
+    "description": "Jest describe"
+  },
+
+  "Jest it": {
+    "scope": "javascript,typescript,javascriptreact, typescriptreact ",
+    "prefix": "it",
+    "body": ["it('$1', () => {$2});"],
+    "description": "Jest it"
+  }
+}
