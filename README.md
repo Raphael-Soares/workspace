@@ -1,8 +1,8 @@
 # Raphael's setup
 
-    This is my setup for my personal computer. I use it for development, gaming, and general use.
+This is my setup for my personal computer. I use it for development, gaming, and general use.
 
-  You can jump to the details of each section by clicking on the links below:
+You can jump to the details of each section by clicking on the links below:
 
 - [Gnome](Gnome/README.md)
 - [Vscode](Vscode/README.md)
@@ -21,4 +21,4 @@
 
 ### Vscode
 
-![Apps](assets/vscode.png)                                                                                                                    
+![Apps](assets/vscode.png)
