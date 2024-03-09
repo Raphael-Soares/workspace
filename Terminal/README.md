@@ -47,6 +47,8 @@ sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 
 For starship, install a recommended NerdFont, such as JetBrainsMono Nerd Font.
 
+[JBMNF Download](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip)
+
 Remember to set the font in your terminal.
 
 ### Install Plugins
@@ -86,18 +88,17 @@ Edit the `.zshrc` file in your home directory with your preferred text editor. U
 For a quick setup, copy and paste this command in your terminal:
 
 ```bash
-wget https://github.com/Raphael-Soares/workspace/raw/main/Terminal/.zshrc
-mv zshrc-example ~/.zshrc
+curl -o ~/.zshrc https://github.com/Raphael-Soares/workspace/raw/main/Terminal/.zshrc && mv -f ~/.zshrc ~/.zshrc
 ```
 
 Now you're all set to enjoy an enhanced terminal experience!
 
-## Install eza and nala
+## Install eza
 
-In my configuration file, `apt` and `ls` are aliased to `eza` and `nala` respectively. To install them, run:
+In my configuration file, `ls` are aliased to `eza`. To install, run:
 
 ```bash
-sudo apt install eza nala -y   # Ubuntu/Debian
+sudo apt install eza -y   # Ubuntu/Debian
 ```
 
 ```bash
