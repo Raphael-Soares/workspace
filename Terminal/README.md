@@ -8,7 +8,7 @@ Enhance your terminal experience with a carefully curated selection of tools and
 
 - **zsh**: A robust shell enriched with advanced features.
 - **oh-my-zsh**: A delightful community-driven framework for seamless management of zsh configurations.
-- **powerlevel10k**: A highly customizable zsh theme offering a visually stunning terminal appearance.
+- **starship**: A highly customizable zsh theme offering a visually stunning terminal appearance.
 - **NerdFonts**: Specialty fonts such as MesloLGS NF, complementing powerlevel10k.
 
 ## Installation Guide:
@@ -37,22 +37,15 @@ Execute a simple one-liner to install oh-my-zsh.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### Install powerlevel10k
-
-Fetch powerlevel10k from its repository.
+### Install starship
 
 ```bash
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 ```
 
 ### Install NerdFonts
 
-For powerlevel10k, install a recommended NerdFont, such as MesloLGS NF.
-
-- [MesloLGS NF Regular.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/assets/Fonts/MesloLGS%20NF%20Regular.ttf)
-- [MesloLGS NF Italic.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/assets/Fonts/MesloLGS%20NF%20Italic.ttf)
-- [MesloLGS NF Bold.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/assets/Fonts/MesloLGS%20NF%20Bold.ttf)
-- [MesloLGS NF Bold Italic.ttf](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/assets/Fonts/MesloLGS%20NF%20Bold%20Italic.ttf)
+For starship, install a recommended NerdFont, such as JetBrainsMono Nerd Font.
 
 Remember to set the font in your terminal.
 
@@ -88,12 +81,12 @@ Select from a variety of plugins to enhance functionality.
 
 Edit the `.zshrc` file in your home directory with your preferred text editor. Use the provided example or create your own.
 
-[Download the example .zshrc file here](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/zshrc.example)
+[Download the example .zshrc file here](https://github.com/Raphael-Soares/workspace/raw/main/Terminal/.zshrc)
 
 For a quick setup, copy and paste this command in your terminal:
 
 ```bash
-wget https://github.com/Raphael-Soares/workspace/raw/main/Terminal/zshrc.example
+wget https://github.com/Raphael-Soares/workspace/raw/main/Terminal/.zshrc
 mv zshrc-example ~/.zshrc
 ```
 
